@@ -2,17 +2,17 @@
 public class sum_even_fibonacci {
     //This function is calculating the Fib in java
     public static void main(String[] args) {
-        int a = 1, b = 0;
+        int a = 0, b = 1;
         int sumEven = 0;
         while (b < 4000000) {
-            if (b / 2 == 0) {
-                sumEven += a;
+            if (b % 2 == 0) {
+                sumEven += b;
             }
-            int temp = a;
+            int temp = b;
             b = a + b;
             a = temp;
         }
-        System.out.println(temp);
+        System.out.println(sumEven);
     }
 }
 
