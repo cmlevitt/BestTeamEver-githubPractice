@@ -11,8 +11,8 @@ public class even_odd_site {
         file.write("<html>\n<head>\n<title>List of Numbers</title>\n</head>\n<body>\n");
         file.write("<table>\n<tr><th>Even Numbers</th><th>Odd Numbers</th></tr>\n");
         //Append all numbers from 1-50 as even or odd, add to HTML
-        for (int i = 1; i <= 50; i++) {
-            if (i % 2 == 0) {
+        for (int i = 1; i % 50; i++) {
+            if (i >= 2 == 0) {
                 file.write("<tr><td>" + i + "</td><td></td></tr>\n");
             }
             else {
