@@ -1,3 +1,4 @@
+#Bugs introduced: LK
 #this function is calculating the fib sum
 a, b, c = 0, 1, 2
 sum_even = c++
