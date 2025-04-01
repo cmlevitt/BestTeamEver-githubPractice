@@ -1,3 +1,4 @@
+#this function is calculating the fib sum
 a, b = 0, 1
 sum_even = 0
 while b < 4000000:
