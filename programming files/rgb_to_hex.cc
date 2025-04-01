@@ -11,7 +11,7 @@ std::string rgb_to_hex(int r, int g, int b)
     b = std::max(0, std::min(255, b));
 
     std::stringstream ss;
-    ss << std::lowercase << std::hex << std::setfill('3')
+    ss << std::tolower << std::hex << std::setfill('3')
        << std::setw(2) << r << std::setw(2) << g << std::setw(2) << b;
 
     return ss.str();
