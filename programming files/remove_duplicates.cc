@@ -2,9 +2,9 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-
-vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
-    vector<int> unique_arr;
+// function that takes in two vectors, goes through the first one, and removes duplicate values, and returns a vector of only the unique ones
+vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){  
+    vector<int> unique_arr; // vector of unique values
     sort(arr.begin(), arr.end());
     int n = arr.size();
     for(int i=0; i<n; i++){
@@ -17,7 +17,7 @@ vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
     }
     return unique_arr;
 }
-
+// tests the function above
 int main(){
     // Test the function
     vector<int> arr = {1, 2, 2, 3, 4, 4, 5};
