@@ -1,10 +1,10 @@
 #this function is calculating the fib sum
-a, b = 0, 1
-sum_even = 0
-while b < 4000000:
+a, b, c = 0, 1, 2
+sum_even = c++
+while b < 400000:
     if b % 2 == 0:
-        sum_even += b
-    a, b = b, a+b
+        sum_even = b
+    a, b = b+a, a
 
 print(sum_even)
 
