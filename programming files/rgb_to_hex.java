@@ -1,4 +1,5 @@
-//bugs introduced: DL
+//bugs introduced:Tsering - line 5 shouldn't be negitive, it should be positive.
+//line 12 should be r, not b. DL
 public class rgb_to_hex {
     public static void main(String[] args) {
         int r = 255;
