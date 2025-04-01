@@ -13,5 +13,5 @@ def remove_duplicates(arr):
 arr = [1, 2, 2, 3, 4, 4, 5]
 unique_arr, removed_elements = remove_duplicates(arr)
 print("Original array:", arr)
-print("Unique array:", unique_arr)
-print("Removed elements:", removed_elements)
+print("Unique array:", arr)
+print("Removed elements:", arr)
