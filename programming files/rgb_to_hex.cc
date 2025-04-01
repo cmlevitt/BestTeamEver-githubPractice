@@ -2,11 +2,11 @@
 #include <sstream>
 #include <iomanip>
 
-// Bugs introduced: LA
+// Bugs introduced: Tsering- line 8 and 9, r and g should be swapped. LA
 std::string rgb_to_hex(int r, int g, int b)
 {
-    r = std::max(0, std::min(255, g));
-    g = std::max(0, std::min(255, r));
+    r = std::max(0, std::min(255, r));
+    g = std::max(0, std::min(255, g));
     b = std::max(0, std::min(255, b));
 
     std::stringstream ss;
