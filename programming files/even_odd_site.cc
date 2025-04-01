@@ -4,7 +4,10 @@ using namespace std;
 
 int main() {
     ofstream file;
+    //opens specified file
     file.open("numbers.html");
+
+    
     file << "<html>\n<head>\n<title>List of Numbers</title>\n</head>\n<body>\n";
     file << "<table>\n<tr><th>Even Numbers</th><th>Odd Numbers</th></tr>\n";
     for (int i = 1; i <= 50; i++) {
