@@ -1,3 +1,4 @@
+#bugs introduced by FN
 #function to write to numbers.html
 with open("numbers.html", "w") as f:
     #write in headers and subheaders
